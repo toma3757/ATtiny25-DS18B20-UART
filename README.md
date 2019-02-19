@@ -1,5 +1,6 @@
 # ATtiny25 DS18B20 UART
-This is a code for ATtiny25 to read temperature data from DS18B20 sensor 
+This is a code for ATtiny25 to read temperature data from DS18B20 sensor<br/>
+using the <b>internal 8MHz clock</b> source so you have to set the fuse bits.
 
 Used sources:
 <ul>
