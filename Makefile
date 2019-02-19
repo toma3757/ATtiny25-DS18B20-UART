@@ -6,7 +6,7 @@ LD = avr-ld
 CFLAGS = -mmcu=$(avrType) -g -Wall -Os -Werror -Wextra -DF_CPU=8000000 -c
 .PHONY: clean elf flash hex object program
 clean: 
-	rm $(src).elf $(src).lst $(src).flash.hex $(src).o
+	rm uart.o ds18b20.o main.o $(output).elf $(output).flash.hex $(output)
 	date
 
 object:
